@@ -1,0 +1,21 @@
+img{
+    width: 40%;
+    position: absolute;
+    left: 700px;
+}
+#resumos{
+    position:relative;
+    top: 550px;
+}
+table,th,td{
+    border: 1px solid black;
+    text-align: center;
+
+}
+a{
+    color: black;
+}
+a:hover{
+    background-color: yellow;
+    text-decoration: none;
+}

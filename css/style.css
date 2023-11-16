@@ -1,11 +1,28 @@
 *{
     background-color: rgb(235, 235, 235);
+    text-align: justify;
 }
-
-img{
+header{
+    height: 250px;
+}
+h1{
+    text-align:start;
+    margin-left: 250px;
+}
+#imgComputer{
+    top:500px;
     width: 40%;
     position: absolute;
     left: 700px;
+    border-radius: 10%;
+}
+#fotoCovizzi{
+    border-radius: 50%;
+    width: 200px;
+    height: 200px;
+    position: absolute;
+    left: 0px;
+    transform: rotate(315deg);
 }
 #resumos{
     position:relative;
@@ -29,4 +46,6 @@ a:hover{
 }
 p{
     margin: 20px;
+    padding-right: 220px;
+
 }

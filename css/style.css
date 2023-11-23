@@ -1,7 +1,56 @@
-*{
-    background-color: rgb(235, 235, 235);
-    text-align: justify;
+
+.dark{
+    background-color: black;
+    color: yellow;
 }
+.dark header{
+    background-color: black;
+    border: 1px solid white;
+}
+.dark main{
+    background-color: black;
+    border: 1px solid white;
+}
+.dark footer{
+    background-color: black;
+    border: 1px solid white;
+}
+.dark a{
+    color: yellow;
+}
+.dark table{
+    border:1px solid white;
+}
+.dark th{
+    border:1px solid white;
+}
+.dark td{
+    border:1px solid white;
+}
+.dark img{
+border: 2.5px solid white;
+}
+.dark #imgComputer{
+    border:5px solid white;
+}
+.dark #fotoCovizzi{
+    border:5px solid white;
+}
+
+#mudarTema{
+    width: 60px;
+    height: 50px;
+    font-size: 15px;
+    margin-left:15px;
+}
+
+
+header,footer,main{
+    border: 1px solid black;
+    background-color: rgb(250, 250, 250);
+    text-align: justify;
+    }
+
 header{
     height: 250px;
 }
@@ -9,30 +58,43 @@ h1{
     text-align:start;
     margin-left: 250px;
 }
+h2{
+    margin-left: 5px;
+}
+h3{
+    margin-left: 10px;
+}
+
+#imgComputer, #fotoCovizzi{
+    border: 5px solid black;
+}
+
 #imgComputer{
-    top:500px;
-    width: 40%;
-    position: absolute;
-    left: 700px;
+    width: 30%;
+    display:block;
+    float: right;   
     border-radius: 10%;
 }
 #fotoCovizzi{
+    top: 5px;
     border-radius: 50%;
     width: 200px;
     height: 200px;
     position: absolute;
-    left: 0px;
+    right: 15px;
     transform: rotate(315deg);
+    top: 19px;
 }
-#resumos{
-    position:relative;
-    top: 550px;
-}
+
 table,th,td{
     border: 1px solid black;
     text-align: center;
 
 }
+table{
+    margin-left: 5px;
+}
+
 td{
     padding: 3.2px;
 }
@@ -47,5 +109,12 @@ a:hover{
 p{
     margin: 20px;
     padding-right: 220px;
+    width: 840px;
+}
 
+.icon{
+    width: 50px;
+    margin: 5px;
+    border-radius: 50px;
+    border: 1px solid black;
 }

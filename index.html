@@ -5,7 +5,7 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <link rel="stylesheet" href="./css/style.css">
-    <title>Document</title>
+    <title>Matheus Pontieri Covizzi</title>
 </head>
 <body>
 
@@ -15,14 +15,21 @@
     <header>
         <img src="./imagens/imagemMatheus.jpeg " id="fotoCovizzi"  alt="Homem branco de olhos azuis acinzantados, cabelo encaracolado preto, cavanhaque e bigode ">
         <h1>Matheus Pontieri Covizzi - 20 Anos</h1>
-        <button id="mudarTema">Mudar Tema</button>  
+        <button id="mudarTema">Mudar Tema</button> 
+        <br><br>
+        <button id="increaseBtn">+</button>
+        <button id="decreaseBtn">-</button>
+        <br><br>
+        <a href="#main" class="aLink">Vá para Resumos</a>
+        <br>    
+        <a href="#footer" class="aLink">Vá para links Pessoais</a>
     
     </header>
 
 
 
 
-    <main>
+    <main id="main">
     <h2>Curso:  Sistemas Para Internet / 2º Semestre (1º Ano)</h2>
     <img src="./imagens/imagemComputador.jpg" id="imgComputer" alt="Homem trabalhando em um computador para simbolizar o estilo do curso sistemas para internet" id="imgComp">
     <h3>Turno Diúrno - 7h40/13h00</h3>
@@ -32,7 +39,7 @@
 
         <h2>Resumos</h2>
         <h3>Pessoal</h3>
-        <p>
+        <p class="txt">
             Estudando na escola pública Toledo em Itápolis, não tendo interesse nenhum na área tecnologica, só fiquei conhecendo graças a uma professora da ETEC que forá realizar uma divulgação da instituição de ensino em que ela trabalhava, e me interessei na área e fiz a prova.
             Começando o foco em Informática em 2017,me inscrevi na ETEC de Matão e realizei o ensino médio integrado a Informática em 2018, em 2022 me inscrevi na FATEC de Taquaritinga e começei o curso de Sistemas para internet em 2023. 
         </p>
@@ -43,20 +50,22 @@
 
 
         <h3>Acadêmico</h3>
-        <p>
+        <p class="txt">
             Começando o foco em Informática em 2017,me inscrevi na ETEC de Matão e comecei o ensino médio integrado a Informática em 2018, em 2022 me inscrevi na FATEC de Taquaritinga e começei o curso de Sistemas para internet em 2023.
         </p>
 
 
-        <table>
+        <table class="txt">
             <caption>Resumo das formações acadêmicas realizadas</caption>
             <thead>
                 <tr><th>Instituições</th><th>Tempo</th><th>Período</th><th>Cursos</th></tr>
             </thead>
             <tbody>
                 <tr><td>EMEF José Toledo de Mendonça</td><td>9º Anos - 2008/2017</td><td>Diúrno - 7h00/12h00</td><td>Ensino Fundamental</td></tr>
-                <tr><td><a href="https://www.etecmatao.com.br/" target="_blank"> ETEC - Sylvio de Mattos Carvalho</a></td><td>3º Anos - 2018/2020</td><td>Integral - 7h10/15h30</td><td><a href="https://www.etecmatao.com.br/cursos/ensino-medio-com-habilitacao-profissional-em-tecnico-em-informatica-para-internet-novotec-integrado.html" target="_blank"> Informática Integrado ao Ensino médio</a></td></tr>
-                <tr><td><a href="https://www.fatectq.edu.br/" target="_blank"> FATEC - Marlene Maria Miletta Servidoni</a></td><td>3º Anos - 2023/2025</td><td>Diúrno - 7h40/13h00</td><td><a href="https://www.fatectq.edu.br/curso/sistemas-para-internet" target="_blank"> Sistemas para Internet - SI</a></td></tr>
+                <tr><td><a href="https://www.etecmatao.com.br/" target="_blank" class="tableA"> ETEC - Sylvio de Mattos Carvalho</a></td>
+                    <td>3º Anos - 2018/2020</td><td>Integral - 7h10/15h30</td><td><a href="https://www.etecmatao.com.br/cursos/ensino-medio-com-habilitacao-profissional-em-tecnico-em-informatica-para-internet-novotec-integrado.html" target="_blank" class="tableA"> Informática Integrado ao Ensino médio</a></td></tr>
+                <tr><td><a href="https://www.fatectq.edu.br/" target="_blank" class="tableA"> FATEC - Marlene Maria Miletta Servidoni</a></td>
+                    <td>3º Anos - 2023/2025</td><td>Diúrno - 7h40/13h00</td><td><a href="https://www.fatectq.edu.br/curso/sistemas-para-internet" target="_blank" class="tableA"> Sistemas para Internet - SI</a></td></tr>
 
             </tbody>
             <tfoot></tfoot>   
@@ -69,12 +78,20 @@
 
 
 
-    <footer>
-
-        <a href="https://www.facebook.com/matheus.covizzi"></a><img class="icon" src="./imagens/facebook.png" alt="Imagem com link para o site do Facebook"></a>
-        <a href="https://github.com/Vallirsvi"></a><img class="icon" src="./imagens/github.png" alt="Imagem com link para o site do Github"></a>
-        <a href="https://www.instagram.com/vallirsvi"></a><img class="icon" src="./imagens/instagram.png" alt="Imagem com link para o site do Instagram"></a>
-        <a href="https://br.linkedin.com/in/matheus-covizzi-b0886b268"><img class="icon" src="./imagens/linkedin.png" alt="Imagem com link para o site do Linkedin"></a>
+    <footer id="footer">
+        <h2>Links para as minhas Redes Sociais</h2>
+        <a href="https://www.facebook.com/matheus.covizzi" target="_blank">
+            <h3 class="txt h3Icon">Clique aqui para ir para o Facebook</h3>
+            <img class="icon" id="facebook" src="./imagens/facebook.png" alt="Imagem com link para o site do Facebook"></a>
+        <a href="https://github.com/Vallirsvi" target="_blank">
+            <h3 class="txt h3Icon">Clique aqui para ir para o Github</h3>
+            <img class="icon" id="github" src="./imagens/github.png" alt="Imagem com link para o site do Github"></a>
+        <a href="https://www.instagram.com/vallirsvi" target="_blank">
+            <h3 class="txt h3Icon">Clique aqui para ir para o Instagram</h3>
+            <img class="icon" id="instagram" src="./imagens/instagram.png" alt="Imagem com link para o site do Instagram"></a>
+        <a href="https://br.linkedin.com/in/matheus-covizzi-b0886b268" target="_blank">
+            <h3 class="txt h3Icon">Clique aqui para ir para o Linkedin</h3>
+            <img class="icon" id="linkedin" src="./imagens/linkedin.png" alt="Imagem com link para o site do Linkedin"></a>
 
 
 <!-- Libras -->
@@ -94,8 +111,8 @@
       avatar: 'random',
   });
 </script>
-
 <!-- Fim Libras -->
+
 
     </footer>
     <script src="./script/script.js"></script>

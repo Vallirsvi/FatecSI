@@ -36,12 +36,23 @@ border: 2.5px solid white;
 .dark #fotoCovizzi{
     border:5px solid white;
 }
+.dark .aLink{
+    color: yellow;
+}
+.dark .tableA:hover{
+    background-color: black;
+    color: white;
+}
 
 #mudarTema{
     width: 60px;
     height: 50px;
     font-size: 15px;
     margin-left:15px;
+}
+
+#increaseBtn, #decreaseBtn{
+    margin-left: 15px;
 }
 
 
@@ -52,8 +63,14 @@ header,footer,main{
     }
 
 header{
-    height: 250px;
+    height: 270px;
+    position: fixed;
+    width: 100%;
 }
+main{
+    padding-top: 255px;
+}
+
 h1{
     text-align:start;
     margin-left: 250px;
@@ -62,6 +79,7 @@ h2{
     margin-left: 5px;
 }
 h3{
+    font-size: 25px;
     margin-left: 10px;
 }
 
@@ -78,10 +96,10 @@ h3{
 #fotoCovizzi{
     top: 5px;
     border-radius: 50%;
-    width: 200px;
-    height: 200px;
+    width: 150px;
+    height: 150px;
     position: absolute;
-    right: 15px;
+    right: 50px;
     transform: rotate(315deg);
     top: 19px;
 }
@@ -102,9 +120,12 @@ td{
 a{
     color: black;
 }
-a:hover{
+.tableA:hover{
     background-color: yellow;
     text-decoration: none;
+}
+.aLink{
+    font-size: 30px;
 }
 p{
     margin: 20px;
@@ -113,8 +134,14 @@ p{
 }
 
 .icon{
-    width: 50px;
+    width: 70px;
     margin: 5px;
     border-radius: 50px;
-    border: 1px solid black;
+    border: 3px solid black;
+}
+.icon:hover{
+    border: 5px solid black;
+}
+.h3Icon{
+    width:fit-content;
 }
